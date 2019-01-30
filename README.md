@@ -41,3 +41,5 @@ As an example, if you want to find all the matrices with double zero eigenvalues
         L = LP - t * LN;
         eig(L)
     end
+
+Side note: In the above figure you can also see two instances of a phenomenon called "avoidance of crossing" which refers to the fact that something strange should happen for a matrix to have an eigenvalue of multiplicity 2. So, when two eigenvalues get close to each other through a perturbation, eventually they start getting far from each other without crossing each other. In the upper half plane, the purple eigenvalue avoids the orange one first, and then the green one. You can read more about it in the Linear Algebra and Its Applications book by Peter Lax.
